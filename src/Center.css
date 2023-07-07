@@ -1,14 +1,20 @@
 .Center{
-    width: 149.8vh;
-    margin-top: -80vh;
-    margin-left: 20.5vh;
+    width: 90%;
+    background-color: #161e33; 
 }
 .container-heading{
-    background-color: brown;
+    background-color: #213051;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap-reverse;
     justify-content: space-between;
+    padding: 2px;
+}
+button{
+    padding: 5px;
+    margin: 5px;
+}
+.tools{
+    margin: 0 10px;
 }
 .heading{
     padding: 0 8px;
@@ -16,20 +22,118 @@
 }
 .subheading{
     color: rgb(194, 194, 194);
-    padding:4px 0;
 }
 .box{
     margin-top: 5px;
 }
-.flex-box{
-    border: 1px solid white;
+.col{
+    margin:0 -12.5px;
 }
 
 .fig-container{
-    border: 2px solid yellow;
-    height: 20vh;
+    color: white;
+    border-bottom: 1px solid white;
+    padding:0 12.5px;
 }
 
 .fig-box{
-    border: 2px solid pink;
+    border: 1px solid #b6b6b6;
+    border-bottom: none;
+    width: 100%;
 }
+.name-box{
+    border-bottom: 1px solid rgb(148, 148, 148);
+    display: flex;
+    flex-direction: row;
+    padding: 0 5px;
+    justify-content: space-between;
+}
+.num-box{
+    padding:45px 45px 60px;
+    display: flex;
+    flex-direction: column;
+}
+.chart-box{
+    padding:45px 30px 60px;
+    min-height: 30vh;
+    min-width: max-content;
+    min-height: max-content;
+    display: flex;
+    flex-direction: row;
+}
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: #bbb;
+    border-radius: 50%;
+  }
+
+.small-font{
+    font-size: 15px;
+}
+.number{
+    color: #fcc910;
+    font-size: 35px;
+    font-weight: 300;
+}
+.age-percent{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+.percent-box{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+
+}
+
+
+/* --------------age-chart Chart--------------- */
+
+.age-chart {
+    height: 200px;
+    width: 200px;
+    margin: 0 15px;
+    border-radius: 50%;
+    background: conic-gradient(
+            deepskyblue 0% 25%,
+            lightgreen 25% 40%,
+            #be6342 40% 50%,
+            #ca92f0 50% 65%,
+            #ecec58 65% 85%,
+            #FFFFFF 85%
+    );
+}
+
+.gender-chart{
+    height: 200px;
+    width: 200px;
+    margin: 0 15px;
+    border-radius: 50%;
+    background: conic-gradient(
+            deepskyblue 0% 14%,
+            #ffc400 14% );
+}
+.age-chart.hollow, .gender-chart.hollow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.age-chart.hollow::after, .gender-chart.hollow::after {
+    content: '';
+    position: absolute;
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    background-color: #161e33;
+}
+.age-chart.hollow, .gender-chart {
+    font-size: 24pt;
+    z-index: 2;
+    font-weight: bold;
+    font-family: "JetBrains Mono", sans-serif ;
+}
+
+  /* ----------------------------------- */
