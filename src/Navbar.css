@@ -1,0 +1,13 @@
+.container-fluid {
+    background-color: #213051;
+    color: red;
+    margin-top: -8px;
+    margin-bottom: -7px;
+}
+span{
+    margin: 6px 6px;
+}
+.icons{
+    margin-right: 5px;
+    margin-top: -5px;
+}

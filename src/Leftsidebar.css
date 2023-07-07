@@ -1,0 +1,15 @@
+.navbar-expand-lg{
+    background-color: #161e33;
+}
+.icons{
+    margin-right: 5px;
+    margin-top: -5px;
+}
+
+.Leftsidebar{
+    /* border-right: 1px solid red; */
+    background-color: #161e33;
+    border: 1px solid red;
+    width: 200px;
+    height: 80vh;
+}

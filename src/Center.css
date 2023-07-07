@@ -1,0 +1,35 @@
+.Center{
+    width: 149.8vh;
+    margin-top: -80vh;
+    margin-left: 20.5vh;
+}
+.container-heading{
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+}
+.heading{
+    padding: 0 8px;
+    color: rgb(255, 255, 255);
+}
+.subheading{
+    color: rgb(194, 194, 194);
+    padding:4px 0;
+}
+.box{
+    margin-top: 5px;
+}
+.flex-box{
+    border: 1px solid white;
+}
+
+.fig-container{
+    border: 2px solid yellow;
+    height: 20vh;
+}
+
+.fig-box{
+    border: 2px solid pink;
+}
